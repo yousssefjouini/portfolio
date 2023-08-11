@@ -1,5 +1,3 @@
 site_name: Youssef Jouini
 theme:
-  name: windmill-dark
-
-
+  name: material
