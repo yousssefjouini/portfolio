@@ -1,3 +1,88 @@
 site_name: Youssef Jouini
+site_description: Youssef Jouini's Portfolio & Resume
+site_url: https://yousssefjouini.github.io/portfolio/
+copyright: © Copyright 2023
+
 theme:
   name: material
+  font:
+    text: DM Sans
+    code: DM Mono
+  palette:
+    # Palette toggle for light mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.follow
+    - toc.integrate
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/github
+  logo: img/logo.svg
+  favicon: img/logo.svg
+  language: en
+
+repo_name: yousssefjouini/portfolio
+repo_url: https://github.com/yousssefjouini/portfolio
+edit_uri: edit/main/docs
+
+plugins:
+  - search
+  # - git-revision-date-localized:
+  #   type: timeago
+  #   enable_creation_date: true
+  #   exclude:
+  #     - index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: "#"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.smartsymbols
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - "index.md"
+  - Curriculum:
+      - Education: curriculum/education.md
+      - Professional: curriculum/professional.md
+  - Projects: projects/projects.md
+  - Contact: contact.md
+
+extra:
+  generator: false
+# extra_css:
+#   - custom/custom.css
+
+# extra_javascript:
+#   - custom/custom.js
