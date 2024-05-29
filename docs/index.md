@@ -52,7 +52,7 @@
             </a>
         </div>
         <h1 class="title">Youssef Jouini</h1>
-        <p class="description">I am a dedicated and motivated data scientist with a passion for Data Science & Machine Learning.</p>
+        <p class="description">I am a dedicated and motivated data scientist with a passion for Data Science & Machine Learning. My field of interest for the past several months have been Generative AI, especially working on retrievers building a hybrid search engine from scratch with Vespa(full end-to-end pipeline from data collection to hybrid ranking and re-ranking, optimization and deployment focusing on accuracy and latency).</p>
         <p class="description">Check out my <a href="curriculum/education">curriculum</a>, explore my <a href="./projects/projects">portfolio</a>, and get in touch through the <a href="contact">contact</a> section.</p>
     </div>
 </body>
